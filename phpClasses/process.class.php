@@ -1,6 +1,7 @@
 <?php
 
-class create{
+class create
+{
 
   public $Name;
   public $School;
@@ -8,8 +9,9 @@ class create{
   public $Major;
   public $Degree;
 
-  public function __construct($values=[]){
-  //?? is coalescing operator is going to check the value$this-> School= $values['School'] ?? '';
+  public function __construct($values=[])
+  {
+  // is coalescing operator is going to check the value
     $this-> Name= $values['Name'] ?? '';
     $this-> School= $values['School'] ?? '';
     $this->GraduateDate = $values['GraduateDate'] ?? '';
@@ -18,13 +20,5 @@ class create{
 
 
   }
-
-
-
 }
-
-
-
-
-
 ?>

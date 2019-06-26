@@ -1,0 +1,37 @@
+.quote {
+    font: 400 72px "Arizonia", Helvetica, sans-serif;
+    color: #f4404b;
+    text-align: center;
+}
+
+.book-title {
+    color: #adf497;
+}
+
+.error {
+    color: #e9ff64;
+}
+
+.btn-social {
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    color: white;
+    padding-left: 40px;
+  }
+
+  .btn-social:hover {
+    color: white;
+  }
+
+  .btn-social > :first-child {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 30px;
+      line-height: 1.6em;
+      font-size: 1.6em;
+      text-align: center;
+      border-right: 1px solid rgba(3, 8, 9, 0.2);
+  }
